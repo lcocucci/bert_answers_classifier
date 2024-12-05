@@ -1,0 +1,434 @@
+[
+    {
+        "Pregunta": "Analiza las mejores prácticas para estimar el esfuerzo requerido en la implementación de historias de usuario.",
+        "Respuesta Correcta": "Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Story Points, horas de trabajo o tamaños (S, M, L, XL). Estas estimaciones se realizan durante el Sprint planning y se basan en la complejidad, el riesgo y la incertidumbre de la historia de usuario. Es crucial que el equipo discuta y llegue a un consenso sobre las estimaciones, asegurando que todos entienden el alcance y las implicaciones del trabajo a realizar.",
+        "Respuesta Alumno": "Para estimar el esfuerzo, solo contamos cuántas tareas hay y las dividimos entre el equipo.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Analiza las mejores prácticas para estimar el esfuerzo requerido en la implementación de historias de usuario.",
+        "Respuesta Correcta": "Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Story Points, horas de trabajo o tamaños (S, M, L, XL). Estas estimaciones se realizan durante el Sprint planning y se basan en la complejidad, el riesgo y la incertidumbre de la historia de usuario. Es crucial que el equipo discuta y llegue a un consenso sobre las estimaciones, asegurando que todos entienden el alcance y las implicaciones del trabajo a realizar en la Respuesta Correcta anterior]",
+        "Respuesta Alumno": "Las mejores prácticas son hacer el trabajo lo más rápido posible para terminar antes.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Analiza las mejores prácticas para estimar el esfuerzo requerido en la implementación de historias de usuario.",
+        "Respuesta Correcta": "Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Story Points, horas de trabajo o tamaños (S, M, L, XL). Estas estimaciones se realizan durante el Sprint planning y se basan en la complejidad, el riesgo y la incertidumbre de la historia de usuario. Es crucial que el equipo discuta y llegue a un consenso sobre las estimaciones, asegurando que todos entienden el alcance y las implicaciones del trabajo a realizar en la Respuesta Correcta anterior]",
+        "Respuesta Alumno": "Podemos usar horas de trabajo o tallas como S, M, L, XL durante el Sprint planning para estimar el esfuerzo según la complejidad.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Analiza las mejores prácticas para estimar el esfuerzo requerido en la implementación de historias de usuario.",
+        "Respuesta Correcta": "Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Story Points, horas de trabajo o tamaños (S, M, L, XL). Estas estimaciones se realizan durante el Sprint planning y se basan en la complejidad, el riesgo y la incertidumbre de la historia de usuario. Es crucial que el equipo discuta y llegue a un consenso sobre las estimaciones, asegurando que todos entienden el alcance y las implicaciones del trabajo a realizar en la Respuesta Correcta anterior]",
+        "Respuesta Alumno": "Para estimar el esfuerzo, utilizamos Story Points y tamaños (S, M, L, XL) en el Sprint planning, basándonos en la complejidad y riesgo de las historias.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Analiza las mejores prácticas para estimar el esfuerzo requerido en la implementación de historias de usuario.",
+        "Respuesta Correcta": "Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Story Points, horas de trabajo o tamaños (S, M, L, XL). Estas estimaciones se realizan durante el Sprint planning y se basan en la complejidad, el riesgo y la incertidumbre de la historia de usuario. Es crucial que el equipo discuta y llegue a un consenso sobre las estimaciones, asegurando que todos entienden el alcance y las implicaciones del trabajo a realizar en la Respuesta Correcta anterior]",
+        "Respuesta Alumno": "Las mejores prácticas incluyen usar Story Points, horas de trabajo o tamaños para estimar durante el Sprint planning. Estas estimaciones consideran la complejidad, riesgo e incertidumbre, y es esencial que el equipo llegue a un consenso.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Analiza las mejores prácticas para estimar el esfuerzo requerido en la implementación de historias de usuario.",
+        "Respuesta Correcta": "Las mejores prácticas para estimar el esfuerzo incluyen el uso de técnicas como los Story Points, horas de trabajo o tamaños (S, M, L, XL). Estas estimaciones se realizan durante el Sprint planning y se basan en la complejidad, el riesgo y la incertidumbre de la historia de usuario. Es crucial que el equipo discuta y llegue a un consenso sobre las estimaciones, asegurando que todos entienden el alcance y las implicaciones del trabajo a realizar.",
+        "Respuesta Alumno": "Para estimar el esfuerzo requerido en historias de usuario, se deben utilizar técnicas como Story Points, horas de trabajo o tamaños (S, M, L, XL) durante el Sprint planning. Estas estimaciones se basan en la complejidad, riesgo e incertidumbre de cada historia. Es crucial que el equipo discuta y llegue a un consenso, asegurando que todos entienden el alcance y las implicaciones del trabajo.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Explica cómo y por qué se deben utilizar los criterios de aceptación en las historias de usuario.",
+        "Respuesta Correcta": "Los criterios de aceptación son condiciones específicas que deben cumplirse para que una historia de usuario sea considerada completa y aceptable por el usuario final. Estos criterios ayudan a definir claramente lo que se espera de la funcionalidad, permitiendo pruebas más precisas y asegurando que el producto cumple con los requisitos del cliente. Se deben definir claramente al inicio y revisarse continuamente para reflejar cualquier cambio en los requisitos.",
+        "Respuesta Alumno": "No es necesario usar criterios de aceptación en las historias de usuario.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Explica cómo y por qué se deben utilizar los criterios de aceptación en las historias de usuario.",
+        "Respuesta Correcta": "Los criterios de aceptación son condiciones específicas que deben cumplirse para que una historia de usuario sea considerada completa y aceptable por el usuario final. Estos criterios ayudan a definir claramente lo que se espera de la funcionalidad, permitiendo pruebas más precisas y asegurando que el producto cumple con los requisitos del cliente. Se deben definir claramente al inicio y revisarse continuamente para reflejar cualquier cambio en los requisitos.",
+        "Respuesta Alumno": "Se usan para aceptar historias más rápido.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Explica cómo y por qué se deben utilizar los criterios de aceptación en las historias de usuario.",
+        "Respuesta Correcta": "Los criterios de aceptación son condiciones específicas que deben cumplirse para que una historia de usuario sea considerada completa y aceptable por el usuario final. Estos criterios ayudan a definir claramente lo que se espera de la funcionalidad, permitiendo pruebas más precisas y asegurando que el producto cumple con los requisitos del cliente. Se deben definir claramente al inicio y revisarse continuamente para reflejar cualquier cambio en los requisitos.",
+        "Respuesta Alumno": "Se deben usar criterios de aceptación para saber si la historia está bien hecha y cumple con lo esperado.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Explica cómo y por qué se deben utilizar los criterios de aceptación en las historias de usuario.",
+        "Respuesta Correcta": "Los criterios de aceptación son condiciones específicas que deben cumplirse para que una historia de usuario sea considerada completa y aceptable por el usuario final. Estos criterios ayudan a definir claramente lo que se espera de la funcionalidad, permitiendo pruebas más precisas y asegurando que el producto cumple con los requisitos del cliente. Se deben definir claramente al inicio y revisarse continuamente para reflejar cualquier cambio en los requisitos.",
+        "Respuesta Alumno": "Los criterios de aceptación son condiciones que deben cumplirse para que una historia sea completa, ayudando a definir claramente lo que se espera y permitiendo pruebas más precisas.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Explica cómo y por qué se deben utilizar los criterios de aceptación en las historias de usuario.",
+        "Respuesta Correcta": "Los criterios de aceptación son condiciones específicas que deben cumplirse para que una historia de usuario sea considerada completa y aceptable por el usuario final. Estos criterios ayudan a definir claramente lo que se espera de la funcionalidad, permitiendo pruebas más precisas y asegurando que el producto cumple con los requisitos del cliente. Se deben definir claramente al inicio y revisarse continuamente para reflejar cualquier cambio en los requisitos.",
+        "Respuesta Alumno": "Se deben utilizar los criterios de aceptación para definir claramente lo que se espera de una historia de usuario, permitiendo pruebas precisas y asegurando que el producto cumple con los requisitos del cliente. Deben definirse al inicio y revisarse si hay cambios.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Explica cómo y por qué se deben utilizar los criterios de aceptación en las historias de usuario.",
+        "Respuesta Correcta": "Los criterios de aceptación son condiciones específicas que deben cumplirse para que una historia de usuario sea considerada completa y aceptable por el usuario final. Estos criterios ayudan a definir claramente lo que se espera de la funcionalidad, permitiendo pruebas más precisas y asegurando que el producto cumple con los requisitos del cliente. Se deben definir claramente al inicio y revisarse continuamente para reflejar cualquier cambio en los requisitos.",
+        "Respuesta Alumno": "Los criterios de aceptación son condiciones específicas que deben cumplirse para que una historia de usuario sea considerada completa y aceptable por el usuario final. Ayudan a definir claramente las expectativas de funcionalidad, permiten pruebas más precisas y aseguran que el producto cumple con los requisitos del cliente. Deben definirse al inicio y revisarse continuamente para reflejar cambios en los requisitos.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Describe el proceso de depuración en el desarrollo de software y su importancia en la calidad del producto final.",
+        "Respuesta Correcta": "La depuración es el proceso de localizar, analizar y corregir los defectos en el software. Consiste en identificar la causa de un defecto, reparar el código y verificar que el defecto ha sido rectificado correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.",
+        "Respuesta Alumno": "La depuración no es necesaria en el desarrollo de software.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Describe el proceso de depuración en el desarrollo de software y su importancia en la calidad del producto final.",
+        "Respuesta Correcta": "La depuración es el proceso de localizar, analizar y corregir los defectos en el software. Consiste en identificar la causa de un defecto, reparar el código y verificar que el defecto ha sido rectificado correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.",
+        "Respuesta Alumno": "Depurar es cuando el software tiene errores y hay que arreglarlo.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Describe el proceso de depuración en el desarrollo de software y su importancia en la calidad del producto final.",
+        "Respuesta Correcta": "La depuración es el proceso de localizar, analizar y corregir los defectos en el software. Consiste en identificar la causa de un defecto, reparar el código y verificar que el defecto ha sido rectificado correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.",
+        "Respuesta Alumno": "El proceso de depuración consiste en encontrar errores y corregirlos para mejorar el software.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Describe el proceso de depuración en el desarrollo de software y su importancia en la calidad del producto final.",
+        "Respuesta Correcta": "La depuración es el proceso de localizar, analizar y corregir los defectos en el software. Consiste en identificar la causa de un defecto, reparar el código y verificar que el defecto ha sido rectificado correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.",
+        "Respuesta Alumno": "La depuración es localizar y corregir defectos en el software, asegurando que el defecto ha sido solucionado correctamente, lo cual mejora la calidad del producto.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Describe el proceso de depuración en el desarrollo de software y su importancia en la calidad del producto final.",
+        "Respuesta Correcta": "La depuración es el proceso de localizar, analizar y corregir los defectos en el software. Consiste en identificar la causa de un defecto, reparar el código y verificar que el defecto ha sido rectificado correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.",
+        "Respuesta Alumno": "El proceso de depuración implica localizar, analizar y corregir los defectos en el software. Es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que afecten al usuario.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Describe el proceso de depuración en el desarrollo de software y su importancia en la calidad del producto final.",
+        "Respuesta Correcta": "La depuración es el proceso de localizar, analizar y corregir los defectos en el software. Consiste en identificar la causa de un defecto, reparar el código y verificar que el defecto ha sido rectificado correctamente. Este proceso es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y el rendimiento del software.",
+        "Respuesta Alumno": "La depuración es el proceso de localizar, analizar y corregir los defectos en el software. Consiste en identificar la causa del defecto, reparar el código y verificar que ha sido rectificado correctamente. Es crucial para asegurar la calidad del producto final, ya que permite resolver problemas antes de que lleguen al usuario, mejorando la fiabilidad y rendimiento del software.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Discute la importancia de la comunicación y colaboración entre el cliente y el equipo de desarrollo en la gestión de historias de usuario.",
+        "Respuesta Correcta": "La comunicación y colaboración entre el cliente y el equipo de desarrollo son fundamentales para garantizar que las historias de usuario reflejen correctamente las necesidades y expectativas del cliente. Esta interacción continua permite que se aclaren dudas, se ajusten los requisitos y se prioricen las funcionalidades de manera efectiva. Además, fortalece la relación entre el cliente y el equipo, facilitando un proceso de desarrollo más ágil y exitoso.",
+        "Respuesta Alumno": "No es necesario comunicarse con el cliente para gestionar las historias de usuario.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Discute la importancia de la comunicación y colaboración entre el cliente y el equipo de desarrollo en la gestión de historias de usuario.",
+        "Respuesta Correcta": "La comunicación y colaboración entre el cliente y el equipo de desarrollo son fundamentales para garantizar que las historias de usuario reflejen correctamente las necesidades y expectativas del cliente. Esta interacción continua permite que se aclaren dudas, se ajusten los requisitos y se prioricen las funcionalidades de manera efectiva. Además, fortalece la relación entre el cliente y el equipo, facilitando un proceso de desarrollo más ágil y exitoso.",
+        "Respuesta Alumno": "La comunicación sirve para que el equipo de desarrollo sepa qué hacer.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Discute la importancia de la comunicación y colaboración entre el cliente y el equipo de desarrollo en la gestión de historias de usuario.",
+        "Respuesta Correcta": "La comunicación y colaboración entre el cliente y el equipo de desarrollo son fundamentales para garantizar que las historias de usuario reflejen correctamente las necesidades y expectativas del cliente. Esta interacción continua permite que se aclaren dudas, se ajusten los requisitos y se prioricen las funcionalidades de manera efectiva. Además, fortalece la relación entre el cliente y el equipo, facilitando un proceso de desarrollo más ágil y exitoso.",
+        "Respuesta Alumno": "Es importante hablar con el cliente para entender las historias de usuario y hacer ajustes.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Discute la importancia de la comunicación y colaboración entre el cliente y el equipo de desarrollo en la gestión de historias de usuario.",
+        "Respuesta Correcta": "La comunicación y colaboración entre el cliente y el equipo de desarrollo son fundamentales para garantizar que las historias de usuario reflejen correctamente las necesidades y expectativas del cliente. Esta interacción continua permite que se aclaren dudas, se ajusten los requisitos y se prioricen las funcionalidades de manera efectiva. Además, fortalece la relación entre el cliente y el equipo, facilitando un proceso de desarrollo más ágil y exitoso.",
+        "Respuesta Alumno": "La comunicación y colaboración con el cliente ayudan a que las historias de usuario reflejen sus necesidades y se puedan hacer cambios si es necesario.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Discute la importancia de la comunicación y colaboración entre el cliente y el equipo de desarrollo en la gestión de historias de usuario.",
+        "Respuesta Correcta": "La comunicación y colaboración entre el cliente y el equipo de desarrollo son fundamentales para garantizar que las historias de usuario reflejen correctamente las necesidades y expectativas del cliente. Esta interacción continua permite que se aclaren dudas, se ajusten los requisitos y se prioricen las funcionalidades de manera efectiva. Además, fortalece la relación entre el cliente y el equipo, facilitando un proceso de desarrollo más ágil y exitoso.",
+        "Respuesta Alumno": "La comunicación y colaboración entre el cliente y el equipo son fundamentales para que las historias de usuario reflejen correctamente sus necesidades. Esto permite aclarar dudas, ajustar requisitos y priorizar funcionalidades de manera efectiva.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Discute la importancia de la comunicación y colaboración entre el cliente y el equipo de desarrollo en la gestión de historias de usuario.",
+        "Respuesta Correcta": "La comunicación y colaboración entre el cliente y el equipo de desarrollo son fundamentales para garantizar que las historias de usuario reflejen correctamente las necesidades y expectativas del cliente. Esta interacción continua permite que se aclaren dudas, se ajusten los requisitos y se prioricen las funcionalidades de manera efectiva. Además, fortalece la relación entre el cliente y el equipo, facilitando un proceso de desarrollo más ágil y exitoso.",
+        "Respuesta Alumno": "La comunicación y colaboración entre el cliente y el equipo de desarrollo son esenciales para asegurar que las historias de usuario reflejen las necesidades y expectativas del cliente. Esta interacción continua permite aclarar dudas, ajustar requisitos y priorizar funcionalidades efectivamente. Además, fortalece la relación entre ambos, facilitando un proceso de desarrollo más ágil y exitoso.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Explica la diferencia entre verificación y validación en el contexto de testing y por qué ambos procesos son cruciales.",
+        "Respuesta Correcta": "La verificación es el proceso de evaluación de un sistema o uno de sus componentes para determinar si los productos de una fase dada satisfacen las condiciones impuestas al comienzo de dicha fase. Se enfoca en construir el producto correctamente. La validación, por otro lado, es el proceso de evaluación de un sistema o uno de sus componentes durante o al final del proceso de desarrollo para determinar si satisface los requerimientos marcados por el usuario. Se enfoca en construir el producto correcto. Ambos procesos son cruciales porque la verificación asegura la calidad interna y la validación asegura que el producto final cumple con las expectativas y necesidades del usuario.",
+        "Respuesta Alumno": "Verificación y validación son lo mismo, no hay diferencia.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Explica la diferencia entre verificación y validación en el contexto de testing y por qué ambos procesos son cruciales.",
+        "Respuesta Correcta": "La verificación es el proceso de evaluación de un sistema o uno de sus componentes para determinar si los productos de una fase dada satisfacen las condiciones impuestas al comienzo de dicha fase. Se enfoca en construir el producto correctamente. La validación, por otro lado, es el proceso de evaluación de un sistema o uno de sus componentes durante o al final del proceso de desarrollo para determinar si satisface los requerimientos marcados por el usuario. Se enfoca en construir el producto correcto. Ambos procesos son cruciales porque la verificación asegura la calidad interna y la validación asegura que el producto final cumple con las expectativas y necesidades del usuario.",
+        "Respuesta Alumno": "La verificación es probar y la validación es chequear el software.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Explica la diferencia entre verificación y validación en el contexto de testing y por qué ambos procesos son cruciales.",
+        "Respuesta Correcta": "La verificación es el proceso de evaluación de un sistema o uno de sus componentes para determinar si los productos de una fase dada satisfacen las condiciones impuestas al comienzo de dicha fase. Se enfoca en construir el producto correctamente. La validación, por otro lado, es el proceso de evaluación de un sistema o uno de sus componentes durante o al final del proceso de desarrollo para determinar si satisface los requerimientos marcados por el usuario. Se enfoca en construir el producto correcto. Ambos procesos son cruciales porque la verificación asegura la calidad interna y la validación asegura que el producto final cumple con las expectativas y necesidades del usuario.",
+        "Respuesta Alumno": "Verificación es asegurarse de que el software funciona y validación es comprobar con el cliente.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Explica la diferencia entre verificación y validación en el contexto de testing y por qué ambos procesos son cruciales.",
+        "Respuesta Correcta": "La verificación es el proceso de evaluación de un sistema o uno de sus componentes para determinar si los productos de una fase dada satisfacen las condiciones impuestas al comienzo de dicha fase. Se enfoca en construir el producto correctamente. La validación, por otro lado, es el proceso de evaluación de un sistema o uno de sus componentes durante o al final del proceso de desarrollo para determinar si satisface los requerimientos marcados por el usuario. Se enfoca en construir el producto correcto. Ambos procesos son cruciales porque la verificación asegura la calidad interna y la validación asegura que el producto final cumple con las expectativas y necesidades del usuario.",
+        "Respuesta Alumno": "La verificación se enfoca en construir el producto correctamente y la validación en construir el producto correcto. Ambos son importantes en el testing.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Explica la diferencia entre verificación y validación en el contexto de testing y por qué ambos procesos son cruciales.",
+        "Respuesta Correcta": "La verificación es el proceso de evaluación de un sistema o uno de sus componentes para determinar si los productos de una fase dada satisfacen las condiciones impuestas al comienzo de dicha fase. Se enfoca en construir el producto correctamente. La validación, por otro lado, es el proceso de evaluación de un sistema o uno de sus componentes durante o al final del proceso de desarrollo para determinar si satisface los requerimientos marcados por el usuario. Se enfoca en construir el producto correcto. Ambos procesos son cruciales porque la verificación asegura la calidad interna y la validación asegura que el producto final cumple con las expectativas y necesidades del usuario.",
+        "Respuesta Alumno": "La verificación es evaluar si el sistema cumple con las condiciones iniciales y se enfoca en construir el producto correctamente. La validación evalúa si el sistema satisface los requerimientos del usuario, enfocándose en construir el producto correcto. Ambos procesos son cruciales para asegurar la calidad interna y que el producto cumpla con las expectativas del usuario.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Explica la diferencia entre verificación y validación en el contexto de testing y por qué ambos procesos son cruciales.",
+        "Respuesta Correcta": "La verificación es el proceso de evaluación de un sistema o uno de sus componentes para determinar si los productos de una fase dada satisfacen las condiciones impuestas al comienzo de dicha fase. Se enfoca en construir el producto correctamente. La validación, por otro lado, es el proceso de evaluación de un sistema o uno de sus componentes durante o al final del proceso de desarrollo para determinar si satisface los requerimientos marcados por el usuario. Se enfoca en construir el producto correcto. Ambos procesos son cruciales porque la verificación asegura la calidad interna y la validación asegura que el producto final cumple con las expectativas y necesidades del usuario.",
+        "Respuesta Alumno": "La verificación es evaluar si un sistema o componente cumple con las condiciones impuestas al inicio de una fase, enfocándose en construir el producto correctamente. La validación es evaluar si el sistema satisface los requerimientos del usuario, enfocándose en construir el producto correcto. Ambos son cruciales: la verificación asegura la calidad interna y la validación garantiza que el producto final cumple con las expectativas y necesidades del usuario.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Explica las mejores prácticas para realizar las pruebas de aceptación en el desarrollo de software y su papel en garantizar la calidad del producto final.",
+        "Respuesta Correcta": "Las pruebas de aceptación son fundamentales para asegurar que el producto cumple con los requisitos y expectativas del cliente. Las mejores prácticas incluyen definir criterios de aceptación claros desde el inicio, realizar pruebas repetitivas en cada iteración y revisar los resultados con el cliente. Las pruebas de aceptación no solo aseguran que la funcionalidad cumpla con los requisitos, sino que también son una forma de validar que el producto final funciona según lo esperado en el entorno del cliente.",
+        "Respuesta Alumno": "Las pruebas de aceptación no son importantes en el desarrollo de software.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Explica las mejores prácticas para realizar las pruebas de aceptación en el desarrollo de software y su papel en garantizar la calidad del producto final.",
+        "Respuesta Correcta": "Las pruebas de aceptación son fundamentales para asegurar que el producto cumple con los requisitos y expectativas del cliente. Las mejores prácticas incluyen definir criterios de aceptación claros desde el inicio, realizar pruebas repetitivas en cada iteración y revisar los resultados con el cliente. Las pruebas de aceptación no solo aseguran que la funcionalidad cumpla con los requisitos, sino que también son una forma de validar que el producto final funciona según lo esperado en el entorno del cliente.",
+        "Respuesta Alumno": "Se hacen pruebas para ver si el software funciona bien.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Explica las mejores prácticas para realizar las pruebas de aceptación en el desarrollo de software y su papel en garantizar la calidad del producto final.",
+        "Respuesta Correcta": "Las pruebas de aceptación son fundamentales para asegurar que el producto cumple con los requisitos y expectativas del cliente. Las mejores prácticas incluyen definir criterios de aceptación claros desde el inicio, realizar pruebas repetitivas en cada iteración y revisar los resultados con el cliente. Las pruebas de aceptación no solo aseguran que la funcionalidad cumpla con los requisitos, sino que también son una forma de validar que el producto final funciona según lo esperado en el entorno del cliente.",
+        "Respuesta Alumno": "Las mejores prácticas incluyen hacer pruebas y revisar los resultados para asegurar que el software cumple con lo esperado.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Explica las mejores prácticas para realizar las pruebas de aceptación en el desarrollo de software y su papel en garantizar la calidad del producto final.",
+        "Respuesta Correcta": "Las pruebas de aceptación son fundamentales para asegurar que el producto cumple con los requisitos y expectativas del cliente. Las mejores prácticas incluyen definir criterios de aceptación claros desde el inicio, realizar pruebas repetitivas en cada iteración y revisar los resultados con el cliente. Las pruebas de aceptación no solo aseguran que la funcionalidad cumpla con los requisitos, sino que también son una forma de validar que el producto final funciona según lo esperado en el entorno del cliente.",
+        "Respuesta Alumno": "Las mejores prácticas incluyen definir criterios de aceptación claros y realizar pruebas en cada iteración para asegurar que el producto cumple con los requisitos del cliente.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Explica las mejores prácticas para realizar las pruebas de aceptación en el desarrollo de software y su papel en garantizar la calidad del producto final.",
+        "Respuesta Correcta": "Las pruebas de aceptación son fundamentales para asegurar que el producto cumple con los requisitos y expectativas del cliente. Las mejores prácticas incluyen definir criterios de aceptación claros desde el inicio, realizar pruebas repetitivas en cada iteración y revisar los resultados con el cliente. Las pruebas de aceptación no solo aseguran que la funcionalidad cumpla con los requisitos, sino que también son una forma de validar que el producto final funciona según lo esperado en el entorno del cliente.",
+        "Respuesta Alumno": "Las mejores prácticas incluyen definir criterios de aceptación desde el inicio, realizar pruebas repetitivas en cada iteración y revisar los resultados con el cliente. Esto garantiza que el producto cumple con los requisitos y funciona como se espera.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Explica las mejores prácticas para realizar las pruebas de aceptación en el desarrollo de software y su papel en garantizar la calidad del producto final.",
+        "Respuesta Correcta": "Las pruebas de aceptación son fundamentales para asegurar que el producto cumple con los requisitos y expectativas del cliente. Las mejores prácticas incluyen definir criterios de aceptación claros desde el inicio, realizar pruebas repetitivas en cada iteración y revisar los resultados con el cliente. Las pruebas de aceptación no solo aseguran que la funcionalidad cumpla con los requisitos, sino que también son una forma de validar que el producto final funciona según lo esperado en el entorno del cliente.",
+        "Respuesta Alumno": "Las mejores prácticas para realizar las pruebas de aceptación incluyen definir criterios de aceptación claros desde el inicio, realizar pruebas repetitivas en cada iteración y revisar los resultados con el cliente. Estas pruebas son fundamentales para garantizar que el producto cumple con los requisitos y expectativas del cliente, y para validar que el software funciona correctamente en su entorno real.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Explica el proceso de independencia de Argentina entre 1810 y 1820, destacando los principales hitos y figuras clave.",
+        "Respuesta Correcta": "El proceso de independencia comenzó con la Revolución de Mayo en 1810, cuando se formó la Primera Junta. A lo largo de la década, Argentina atravesó inestabilidad política con gobiernos como la Junta Grande, los Triunviratos y el Directorio. En 1816, se proclamó formalmente la independencia en el Congreso de Tucumán. Figuras como Manuel Belgrano, José de San Martín y Martín Miguel de Güemes lideraron campañas militares que contribuyeron a la liberación de la región.",
+        "Respuesta Alumno": "Argentina se independizó en 1810 y no pasó nada más hasta 1820.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Explica el proceso de independencia de Argentina entre 1810 y 1820, destacando los principales hitos y figuras clave.",
+        "Respuesta Correcta": "El proceso de independencia comenzó con la Revolución de Mayo en 1810, cuando se formó la Primera Junta. A lo largo de la década, Argentina atravesó inestabilidad política con gobiernos como la Junta Grande, los Triunviratos y el Directorio. En 1816, se proclamó formalmente la independencia en el Congreso de Tucumán. Figuras como Manuel Belgrano, José de San Martín y Martín Miguel de Güemes lideraron campañas militares que contribuyeron a la liberación de la región.",
+        "Respuesta Alumno": "En 1810 empezó la independencia y hubo muchas batallas.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Explica el proceso de independencia de Argentina entre 1810 y 1820, destacando los principales hitos y figuras clave.",
+        "Respuesta Correcta": "El proceso de independencia comenzó con la Revolución de Mayo en 1810, cuando se formó la Primera Junta. A lo largo de la década, Argentina atravesó inestabilidad política con gobiernos como la Junta Grande, los Triunviratos y el Directorio. En 1816, se proclamó formalmente la independencia en el Congreso de Tucumán. Figuras como Manuel Belgrano, José de San Martín y Martín Miguel de Güemes lideraron campañas militares que contribuyeron a la liberación de la región.",
+        "Respuesta Alumno": "La independencia comenzó en 1810 con la Primera Junta y en 1816 se declaró la independencia. Participaron San Martín y Belgrano.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Explica el proceso de independencia de Argentina entre 1810 y 1820, destacando los principales hitos y figuras clave.",
+        "Respuesta Correcta": "El proceso de independencia comenzó con la Revolución de Mayo en 1810, cuando se formó la Primera Junta. A lo largo de la década, Argentina atravesó inestabilidad política con gobiernos como la Junta Grande, los Triunviratos y el Directorio. En 1816, se proclamó formalmente la independencia en el Congreso de Tucumán. Figuras como Manuel Belgrano, José de San Martín y Martín Miguel de Güemes lideraron campañas militares que contribuyeron a la liberación de la región.",
+        "Respuesta Alumno": "El proceso inició con la Revolución de Mayo en 1810 y tuvo gobiernos como la Junta Grande y los Triunviratos. En 1816, en el Congreso de Tucumán, se declaró la independencia. Figuras clave fueron San Martín, Belgrano y Güemes.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Explica el proceso de independencia de Argentina entre 1810 y 1820, destacando los principales hitos y figuras clave.",
+        "Respuesta Correcta": "El proceso de independencia comenzó con la Revolución de Mayo en 1810, cuando se formó la Primera Junta. A lo largo de la década, Argentina atravesó inestabilidad política con gobiernos como la Junta Grande, los Triunviratos y el Directorio. En 1816, se proclamó formalmente la independencia en el Congreso de Tucumán. Figuras como Manuel Belgrano, José de San Martín y Martín Miguel de Güemes lideraron campañas militares que contribuyeron a la liberación de la región.",
+        "Respuesta Alumno": "El proceso de independencia de Argentina inició con la Revolución de Mayo en 1810 y pasó por gobiernos como la Junta Grande, Triunviratos y el Directorio. En 1816, se proclamó la independencia en el Congreso de Tucumán. Líderes como Belgrano, San Martín y Güemes lideraron campañas militares importantes.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Explica el proceso de independencia de Argentina entre 1810 y 1820, destacando los principales hitos y figuras clave.",
+        "Respuesta Correcta": "El proceso de independencia comenzó con la Revolución de Mayo en 1810, cuando se formó la Primera Junta. A lo largo de la década, Argentina atravesó inestabilidad política con gobiernos como la Junta Grande, los Triunviratos y el Directorio. En 1816, se proclamó formalmente la independencia en el Congreso de Tucumán. Figuras como Manuel Belgrano, José de San Martín y Martín Miguel de Güemes lideraron campañas militares que contribuyeron a la liberación de la región.",
+        "Respuesta Alumno": "El proceso de independencia de Argentina comenzó con la Revolución de Mayo en 1810 y la formación de la Primera Junta. Durante la década, hubo inestabilidad política con gobiernos como la Junta Grande, los Triunviratos y el Directorio. En 1816, se proclamó la independencia en el Congreso de Tucumán. Figuras clave como Manuel Belgrano, José de San Martín y Martín Miguel de Güemes lideraron campañas militares que liberaron la región.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Analiza las diferencias entre los unitarios y federales en el contexto de la guerra civil en Argentina y cómo estas divisiones afectaron el desarrollo político del país.",
+        "Respuesta Correcta": "Los unitarios defendían un gobierno centralizado en Buenos Aires, mientras que los federales abogaban por la autonomía de las provincias. Esta división llevó a una larga guerra civil que comenzó con la Batalla de Cepeda en 1820. Los unitarios, principalmente de Buenos Aires, buscaban concentrar el poder político y económico, mientras que los federales, liderados por caudillos como Estanislao López y Francisco Ramírez, defendían las autonomías provinciales. Esta guerra interna retrasó la organización política del país.",
+        "Respuesta Alumno": "No había diferencias entre unitarios y federales, todos querían lo mismo.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Analiza las diferencias entre los unitarios y federales en el contexto de la guerra civil en Argentina y cómo estas divisiones afectaron el desarrollo político del país.",
+        "Respuesta Correcta": "Los unitarios defendían un gobierno centralizado en Buenos Aires, mientras que los federales abogaban por la autonomía de las provincias. Esta división llevó a una larga guerra civil que comenzó con la Batalla de Cepeda en 1820. Los unitarios, principalmente de Buenos Aires, buscaban concentrar el poder político y económico, mientras que los federales, liderados por caudillos como Estanislao López y Francisco Ramírez, defendían las autonomías provinciales. Esta guerra interna retrasó la organización política del país.",
+        "Respuesta Alumno": "Los unitarios y federales peleaban en una guerra civil y eso afectó al país.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Analiza las diferencias entre los unitarios y federales en el contexto de la guerra civil en Argentina y cómo estas divisiones afectaron el desarrollo político del país.",
+        "Respuesta Correcta": "Los unitarios defendían un gobierno centralizado en Buenos Aires, mientras que los federales abogaban por la autonomía de las provincias. Esta división llevó a una larga guerra civil que comenzó con la Batalla de Cepeda en 1820. Los unitarios, principalmente de Buenos Aires, buscaban concentrar el poder político y económico, mientras que los federales, liderados por caudillos como Estanislao López y Francisco Ramírez, defendían las autonomías provinciales. Esta guerra interna retrasó la organización política del país.",
+        "Respuesta Alumno": "Los unitarios querían un gobierno central y los federales querían autonomía provincial. Esta división causó conflictos en el país.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Analiza las diferencias entre los unitarios y federales en el contexto de la guerra civil en Argentina y cómo estas divisiones afectaron el desarrollo político del país.",
+        "Respuesta Correcta": "Los unitarios defendían un gobierno centralizado en Buenos Aires, mientras que los federales abogaban por la autonomía de las provincias. Esta división llevó a una larga guerra civil que comenzó con la Batalla de Cepeda en 1820. Los unitarios, principalmente de Buenos Aires, buscaban concentrar el poder político y económico, mientras que los federales, liderados por caudillos como Estanislao López y Francisco Ramírez, defendían las autonomías provinciales. Esta guerra interna retrasó la organización política del país.",
+        "Respuesta Alumno": "Los unitarios querían centralizar el poder en Buenos Aires, mientras que los federales buscaban la autonomía de las provincias. Esta división llevó a una larga guerra civil que retrasó la organización política del país.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Analiza las diferencias entre los unitarios y federales en el contexto de la guerra civil en Argentina y cómo estas divisiones afectaron el desarrollo político del país.",
+        "Respuesta Correcta": "Los unitarios defendían un gobierno centralizado en Buenos Aires, mientras que los federales abogaban por la autonomía de las provincias. Esta división llevó a una larga guerra civil que comenzó con la Batalla de Cepeda en 1820. Los unitarios, principalmente de Buenos Aires, buscaban concentrar el poder político y económico, mientras que los federales, liderados por caudillos como Estanislao López y Francisco Ramírez, defendían las autonomías provinciales. Esta guerra interna retrasó la organización política del país.",
+        "Respuesta Alumno": "Los unitarios, principalmente de Buenos Aires, buscaban un gobierno centralizado y controlar el poder político y económico. Los federales querían la autonomía de las provincias y eran liderados por caudillos como Estanislao López y Francisco Ramírez. Esta división causó una larga guerra civil que retrasó la organización política del país.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Analiza las diferencias entre los unitarios y federales en el contexto de la guerra civil en Argentina y cómo estas divisiones afectaron el desarrollo político del país.",
+        "Respuesta Correcta": "Los unitarios defendían un gobierno centralizado en Buenos Aires, mientras que los federales abogaban por la autonomía de las provincias. Esta división llevó a una larga guerra civil que comenzó con la Batalla de Cepeda en 1820. Los unitarios, principalmente de Buenos Aires, buscaban concentrar el poder político y económico, mientras que los federales, liderados por caudillos como Estanislao López y Francisco Ramírez, defendían las autonomías provinciales. Esta guerra interna retrasó la organización política del país.",
+        "Respuesta Alumno": "Los unitarios querían un gobierno centralizado en Buenos Aires, concentrando el poder político y económico, mientras que los federales abogaban por la autonomía de las provincias. Esta división llevó a una larga guerra civil que comenzó con la Batalla de Cepeda en 1820. Los federales, liderados por caudillos como Estanislao López y Francisco Ramírez, defendían los intereses provinciales. Estas divisiones afectaron el desarrollo político al retrasar la organización nacional y causar inestabilidad.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Describe el impacto económico de la política de Juan Manuel de Rosas en Buenos Aires y el resto de Argentina durante su gobierno entre 1829 y 1852.",
+        "Respuesta Correcta": "Durante el gobierno de Rosas, Buenos Aires experimentó un crecimiento económico basado en la ganadería y la exportación de productos como cueros y carne salada. Rosas aplicó una política proteccionista, estableciendo la Ley de Aduanas para proteger las industrias locales. Sin embargo, su negativa a sancionar una constitución y repartir las rentas aduaneras al resto del país provocó tensiones con las provincias, que se veían perjudicadas por la falta de libre comercio y desarrollo económico.",
+        "Respuesta Alumno": "La política de Rosas no tuvo impacto económico en Argentina.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Describe el impacto económico de la política de Juan Manuel de Rosas en Buenos Aires y el resto de Argentina durante su gobierno entre 1829 y 1852.",
+        "Respuesta Correcta": "Durante el gobierno de Rosas, Buenos Aires experimentó un crecimiento económico basado en la ganadería y la exportación de productos como cueros y carne salada. Rosas aplicó una política proteccionista, estableciendo la Ley de Aduanas para proteger las industrias locales. Sin embargo, su negativa a sancionar una constitución y repartir las rentas aduaneras al resto del país provocó tensiones con las provincias, que se veían perjudicadas por la falta de libre comercio y desarrollo económico.",
+        "Respuesta Alumno": "Rosas gobernó y hubo problemas económicos en el país.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Describe el impacto económico de la política de Juan Manuel de Rosas en Buenos Aires y el resto de Argentina durante su gobierno entre 1829 y 1852.",
+        "Respuesta Correcta": "Durante el gobierno de Rosas, Buenos Aires experimentó un crecimiento económico basado en la ganadería y la exportación de productos como cueros y carne salada. Rosas aplicó una política proteccionista, estableciendo la Ley de Aduanas para proteger las industrias locales. Sin embargo, su negativa a sancionar una constitución y repartir las rentas aduaneras al resto del país provocó tensiones con las provincias, que se veían perjudicadas por la falta de libre comercio y desarrollo económico.",
+        "Respuesta Alumno": "La economía de Buenos Aires creció con Rosas, pero las provincias no se beneficiaron igual.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Describe el impacto económico de la política de Juan Manuel de Rosas en Buenos Aires y el resto de Argentina durante su gobierno entre 1829 y 1852.",
+        "Respuesta Correcta": "Durante el gobierno de Rosas, Buenos Aires experimentó un crecimiento económico basado en la ganadería y la exportación de productos como cueros y carne salada. Rosas aplicó una política proteccionista, estableciendo la Ley de Aduanas para proteger las industrias locales. Sin embargo, su negativa a sancionar una constitución y repartir las rentas aduaneras al resto del país provocó tensiones con las provincias, que se veían perjudicadas por la falta de libre comercio y desarrollo económico.",
+        "Respuesta Alumno": "Rosas impulsó la ganadería y las exportaciones en Buenos Aires, aplicó políticas proteccionistas como la Ley de Aduanas, pero las provincias se vieron perjudicadas por la falta de libre comercio y la negativa a compartir las rentas aduaneras.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Describe el impacto económico de la política de Juan Manuel de Rosas en Buenos Aires y el resto de Argentina durante su gobierno entre 1829 y 1852.",
+        "Respuesta Correcta": "Durante el gobierno de Rosas, Buenos Aires experimentó un crecimiento económico basado en la ganadería y la exportación de productos como cueros y carne salada. Rosas aplicó una política proteccionista, estableciendo la Ley de Aduanas para proteger las industrias locales. Sin embargo, su negativa a sancionar una constitución y repartir las rentas aduaneras al resto del país provocó tensiones con las provincias, que se veían perjudicadas por la falta de libre comercio y desarrollo económico.",
+        "Respuesta Alumno": "La política de Rosas fomentó el crecimiento económico de Buenos Aires a través de la ganadería y exportaciones de cueros y carne salada. Implementó la Ley de Aduanas para proteger industrias locales. Sin embargo, su negativa a repartir las rentas aduaneras y sancionar una constitución afectó negativamente al resto de las provincias, generando tensiones económicas y políticas.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Describe el impacto económico de la política de Juan Manuel de Rosas en Buenos Aires y el resto de Argentina durante su gobierno entre 1829 y 1852.",
+        "Respuesta Correcta": "Durante el gobierno de Rosas, Buenos Aires experimentó un crecimiento económico basado en la ganadería y la exportación de productos como cueros y carne salada. Rosas aplicó una política proteccionista, estableciendo la Ley de Aduanas para proteger las industrias locales. Sin embargo, su negativa a sancionar una constitución y repartir las rentas aduaneras al resto del país provocó tensiones con las provincias, que se veían perjudicadas por la falta de libre comercio y desarrollo económico.",
+        "Respuesta Alumno": "Durante el gobierno de Juan Manuel de Rosas, Buenos Aires tuvo un crecimiento económico significativo basado en la ganadería y exportaciones de cueros y carne salada. Rosas implementó la Ley de Aduanas para proteger las industrias locales, aplicando políticas proteccionistas. Sin embargo, se negó a sancionar una constitución y a repartir las rentas aduaneras con las provincias, lo que generó tensiones económicas y políticas. Las provincias se vieron perjudicadas por la falta de libre comercio y oportunidades de desarrollo.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Explica las razones y consecuencias de la creación del Virreinato del Río de la Plata en 1776 y cómo esto afectó a la región.",
+        "Respuesta Correcta": "El Virreinato del Río de la Plata fue creado en 1776 por el rey Carlos III para mejorar la administración y defensa de la región, que hasta entonces formaba parte del Virreinato del Perú. Buenos Aires se convirtió en un importante puerto comercial, lo que favoreció el crecimiento económico de la región. Sin embargo, el monopolio comercial impuesto por España dificultó el comercio y fomentó el contrabando. El virreinato también sufrió ataques, como las invasiones inglesas, que revelaron la debilidad del dominio español.",
+        "Respuesta Alumno": "El virreinato se creó en 1776 y no tuvo efectos importantes.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Explica las razones y consecuencias de la creación del Virreinato del Río de la Plata en 1776 y cómo esto afectó a la región.",
+        "Respuesta Correcta": "El Virreinato del Río de la Plata fue creado en 1776 por el rey Carlos III para mejorar la administración y defensa de la región, que hasta entonces formaba parte del Virreinato del Perú. Buenos Aires se convirtió en un importante puerto comercial, lo que favoreció el crecimiento económico de la región. Sin embargo, el monopolio comercial impuesto por España dificultó el comercio y fomentó el contrabando. El virreinato también sufrió ataques, como las invasiones inglesas, que revelaron la debilidad del dominio español.",
+        "Respuesta Alumno": "Se creó para mejorar la administración y hubo comercio en Buenos Aires.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Explica las razones y consecuencias de la creación del Virreinato del Río de la Plata en 1776 y cómo esto afectó a la región.",
+        "Respuesta Correcta": "El Virreinato del Río de la Plata fue creado en 1776 por el rey Carlos III para mejorar la administración y defensa de la región, que hasta entonces formaba parte del Virreinato del Perú. Buenos Aires se convirtió en un importante puerto comercial, lo que favoreció el crecimiento económico de la región. Sin embargo, el monopolio comercial impuesto por España dificultó el comercio y fomentó el contrabando. El virreinato también sufrió ataques, como las invasiones inglesas, que revelaron la debilidad del dominio español.",
+        "Respuesta Alumno": "Fue creado para mejorar la administración y defensa. Buenos Aires se convirtió en un puerto importante, pero el monopolio español dificultó el comercio.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Explica las razones y consecuencias de la creación del Virreinato del Río de la Plata en 1776 y cómo esto afectó a la región.",
+        "Respuesta Correcta": "El Virreinato del Río de la Plata fue creado en 1776 por el rey Carlos III para mejorar la administración y defensa de la región, que hasta entonces formaba parte del Virreinato del Perú. Buenos Aires se convirtió en un importante puerto comercial, lo que favoreció el crecimiento económico de la región. Sin embargo, el monopolio comercial impuesto por España dificultó el comercio y fomentó el contrabando. El virreinato también sufrió ataques, como las invasiones inglesas, que revelaron la debilidad del dominio español.",
+        "Respuesta Alumno": "El virreinato fue creado para mejorar la administración y defensa de la región. Buenos Aires se volvió un puerto comercial importante, favoreciendo el crecimiento económico. Sin embargo, el monopolio español dificultó el comercio y fomentó el contrabando. La región también sufrió invasiones inglesas que mostraron la debilidad española.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Explica las razones y consecuencias de la creación del Virreinato del Río de la Plata en 1776 y cómo esto afectó a la región.",
+        "Respuesta Correcta": "El Virreinato del Río de la Plata fue creado en 1776 por el rey Carlos III para mejorar la administración y defensa de la región, que hasta entonces formaba parte del Virreinato del Perú. Buenos Aires se convirtió en un importante puerto comercial, lo que favoreció el crecimiento económico de la región. Sin embargo, el monopolio comercial impuesto por España dificultó el comercio y fomentó el contrabando. El virreinato también sufrió ataques, como las invasiones inglesas, que revelaron la debilidad del dominio español.",
+        "Respuesta Alumno": "El virreinato se creó para mejorar la administración y defensa, separándose del Virreinato del Perú. Buenos Aires se convirtió en un puerto comercial clave, lo que impulsó la economía regional. Sin embargo, el monopolio comercial español dificultó el comercio, encareciendo productos y fomentando el contrabando. Las invasiones inglesas evidenciaron la debilidad española en la región.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Explica las razones y consecuencias de la creación del Virreinato del Río de la Plata en 1776 y cómo esto afectó a la región.",
+        "Respuesta Correcta": "El Virreinato del Río de la Plata fue creado en 1776 por el rey Carlos III para mejorar la administración y defensa de la región, que hasta entonces formaba parte del Virreinato del Perú. Buenos Aires se convirtió en un importante puerto comercial, lo que favoreció el crecimiento económico de la región. Sin embargo, el monopolio comercial impuesto por España dificultó el comercio y fomentó el contrabando. El virreinato también sufrió ataques, como las invasiones inglesas, que revelaron la debilidad del dominio español.",
+        "Respuesta Alumno": "La creación del Virreinato del Río de la Plata en 1776 por el rey Carlos III tuvo como objetivo mejorar la administración y defensa de la región, separándola del Virreinato del Perú. Buenos Aires se convirtió en un importante puerto comercial, impulsando el crecimiento económico. Sin embargo, el monopolio comercial español encareció productos y complicó las exportaciones, fomentando el contrabando. Además, las invasiones inglesas de 1806 y 1807 evidenciaron la debilidad española en la región, afectando el dominio colonial.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Analiza la importancia de la Ley Sáenz Peña de 1912 y cómo transformó el sistema electoral en Argentina.",
+        "Respuesta Correcta": "La Ley Sáenz Peña, sancionada en 1912, fue un hito en la historia política argentina, ya que estableció el voto secreto, universal y obligatorio para los hombres. Esta ley buscaba poner fin al fraude electoral y garantizar elecciones más transparentes. Su implementación permitió la participación de nuevas fuerzas políticas, como la Unión Cívica Radical, que representaba a sectores populares excluidos del sistema político, y marcó el fin del modelo oligárquico.",
+        "Respuesta Alumno": "La Ley Sáenz Peña no tuvo importancia en Argentina.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Analiza la importancia de la Ley Sáenz Peña de 1912 y cómo transformó el sistema electoral en Argentina.",
+        "Respuesta Correcta": "La Ley Sáenz Peña, sancionada en 1912, fue un hito en la historia política argentina, ya que estableció el voto secreto, universal y obligatorio para los hombres. Esta ley buscaba poner fin al fraude electoral y garantizar elecciones más transparentes. Su implementación permitió la participación de nuevas fuerzas políticas, como la Unión Cívica Radical, que representaba a sectores populares excluidos del sistema político, y marcó el fin del modelo oligárquico.",
+        "Respuesta Alumno": "La ley cambió el sistema de votación en 1912.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Analiza la importancia de la Ley Sáenz Peña de 1912 y cómo transformó el sistema electoral en Argentina.",
+        "Respuesta Correcta": "La Ley Sáenz Peña, sancionada en 1912, fue un hito en la historia política argentina, ya que estableció el voto secreto, universal y obligatorio para los hombres. Esta ley buscaba poner fin al fraude electoral y garantizar elecciones más transparentes. Su implementación permitió la participación de nuevas fuerzas políticas, como la Unión Cívica Radical, que representaba a sectores populares excluidos del sistema político, y marcó el fin del modelo oligárquico.",
+        "Respuesta Alumno": "La Ley Sáenz Peña estableció el voto secreto y obligatorio, transformando el sistema electoral argentino.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Analiza la importancia de la Ley Sáenz Peña de 1912 y cómo transformó el sistema electoral en Argentina.",
+        "Respuesta Correcta": "La Ley Sáenz Peña, sancionada en 1912, fue un hito en la historia política argentina, ya que estableció el voto secreto, universal y obligatorio para los hombres. Esta ley buscaba poner fin al fraude electoral y garantizar elecciones más transparentes. Su implementación permitió la participación de nuevas fuerzas políticas, como la Unión Cívica Radical, que representaba a sectores populares excluidos del sistema político, y marcó el fin del modelo oligárquico.",
+        "Respuesta Alumno": "La Ley Sáenz Peña de 1912 estableció el voto secreto, universal y obligatorio para hombres, buscando acabar con el fraude electoral y garantizar elecciones más transparentes. Permitió la participación de nuevas fuerzas políticas como la Unión Cívica Radical.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Analiza la importancia de la Ley Sáenz Peña de 1912 y cómo transformó el sistema electoral en Argentina.",
+        "Respuesta Correcta": "La Ley Sáenz Peña, sancionada en 1912, fue un hito en la historia política argentina, ya que estableció el voto secreto, universal y obligatorio para los hombres. Esta ley buscaba poner fin al fraude electoral y garantizar elecciones más transparentes. Su implementación permitió la participación de nuevas fuerzas políticas, como la Unión Cívica Radical, que representaba a sectores populares excluidos del sistema político, y marcó el fin del modelo oligárquico.",
+        "Respuesta Alumno": "La Ley Sáenz Peña fue un hito en Argentina al establecer el voto secreto, universal y obligatorio para hombres. Transformó el sistema electoral al eliminar el fraude y permitir elecciones más justas. Esto facilitó la participación de partidos como la Unión Cívica Radical y marcó el fin del modelo político oligárquico.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Analiza la importancia de la Ley Sáenz Peña de 1912 y cómo transformó el sistema electoral en Argentina.",
+        "Respuesta Correcta": "La Ley Sáenz Peña, sancionada en 1912, fue un hito en la historia política argentina, ya que estableció el voto secreto, universal y obligatorio para los hombres. Esta ley buscaba poner fin al fraude electoral y garantizar elecciones más transparentes. Su implementación permitió la participación de nuevas fuerzas políticas, como la Unión Cívica Radical, que representaba a sectores populares excluidos del sistema político, y marcó el fin del modelo oligárquico.",
+        "Respuesta Alumno": "La Ley Sáenz Peña de 1912 transformó el sistema electoral argentino al establecer el voto secreto, universal y obligatorio para los hombres. Esta reforma buscaba eliminar el fraude electoral y garantizar elecciones transparentes. Permitió la participación de nuevas fuerzas políticas, como la Unión Cívica Radical, que representaba a sectores antes excluidos, y marcó el fin del modelo oligárquico, trasladando la discusión política de las calles al parlamento.",
+        "Puntaje": 10
+    },
+    {
+        "Pregunta": "Explica las principales razones detrás de la Revolución del 11 de septiembre de 1852 y cómo influyó en la separación entre Buenos Aires y la Confederación Argentina.",
+        "Respuesta Correcta": "La Revolución del 11 de septiembre de 1852 fue un golpe de estado en Buenos Aires, liderado por Bartolomé Mitre y Adolfo Alsina, en rechazo a la política de Justo José de Urquiza tras la caída de Juan Manuel de Rosas. La ciudad se separó de la Confederación Argentina, formada por las provincias restantes. Esta separación, que duró casi diez años, se debió a los intereses económicos y políticos de la élite porteña, que temía perder el control de las rentas aduaneras y el puerto de Buenos Aires.",
+        "Respuesta Alumno": "No hubo una revolución en 1852 y no afectó a Buenos Aires.",
+        "Puntaje": 0
+    },
+    {
+        "Pregunta": "Explica las principales razones detrás de la Revolución del 11 de septiembre de 1852 y cómo influyó en la separación entre Buenos Aires y la Confederación Argentina.",
+        "Respuesta Correcta": "La Revolución del 11 de septiembre de 1852 fue un golpe de estado en Buenos Aires, liderado por Bartolomé Mitre y Adolfo Alsina, en rechazo a la política de Justo José de Urquiza tras la caída de Juan Manuel de Rosas. La ciudad se separó de la Confederación Argentina, formada por las provincias restantes. Esta separación, que duró casi diez años, se debió a los intereses económicos y políticos de la élite porteña, que temía perder el control de las rentas aduaneras y el puerto de Buenos Aires.",
+        "Respuesta Alumno": "Hubo una revolución en Buenos Aires que causó problemas en el país.",
+        "Puntaje": 2
+    },
+    {
+        "Pregunta": "Explica las principales razones detrás de la Revolución del 11 de septiembre de 1852 y cómo influyó en la separación entre Buenos Aires y la Confederación Argentina.",
+        "Respuesta Correcta": "La Revolución del 11 de septiembre de 1852 fue un golpe de estado en Buenos Aires, liderado por Bartolomé Mitre y Adolfo Alsina, en rechazo a la política de Justo José de Urquiza tras la caída de Juan Manuel de Rosas. La ciudad se separó de la Confederación Argentina, formada por las provincias restantes. Esta separación, que duró casi diez años, se debió a los intereses económicos y políticos de la élite porteña, que temía perder el control de las rentas aduaneras y el puerto de Buenos Aires.",
+        "Respuesta Alumno": "La revolución fue liderada por Mitre y Alsina y causó la separación de Buenos Aires del resto del país.",
+        "Puntaje": 4
+    },
+    {
+        "Pregunta": "Explica las principales razones detrás de la Revolución del 11 de septiembre de 1852 y cómo influyó en la separación entre Buenos Aires y la Confederación Argentina.",
+        "Respuesta Correcta": "La Revolución del 11 de septiembre de 1852 fue un golpe de estado en Buenos Aires, liderado por Bartolomé Mitre y Adolfo Alsina, en rechazo a la política de Justo José de Urquiza tras la caída de Juan Manuel de Rosas. La ciudad se separó de la Confederación Argentina, formada por las provincias restantes. Esta separación, que duró casi diez años, se debió a los intereses económicos y políticos de la élite porteña, que temía perder el control de las rentas aduaneras y el puerto de Buenos Aires.",
+        "Respuesta Alumno": "La revolución fue un golpe de estado liderado por Bartolomé Mitre y Adolfo Alsina en contra de Urquiza. Buenos Aires se separó de la Confederación Argentina debido a intereses económicos y políticos de la élite porteña.",
+        "Puntaje": 6
+    },
+    {
+        "Pregunta": "Explica las principales razones detrás de la Revolución del 11 de septiembre de 1852 y cómo influyó en la separación entre Buenos Aires y la Confederación Argentina.",
+        "Respuesta Correcta": "La Revolución del 11 de septiembre de 1852 fue un golpe de estado en Buenos Aires, liderado por Bartolomé Mitre y Adolfo Alsina, en rechazo a la política de Justo José de Urquiza tras la caída de Juan Manuel de Rosas. La ciudad se separó de la Confederación Argentina, formada por las provincias restantes. Esta separación, que duró casi diez años, se debió a los intereses económicos y políticos de la élite porteña, que temía perder el control de las rentas aduaneras y el puerto de Buenos Aires.",
+        "Respuesta Alumno": "La Revolución del 11 de septiembre de 1852, liderada por Mitre y Alsina, fue un golpe de estado en Buenos Aires en rechazo a la política de Urquiza tras la caída de Rosas. Buenos Aires se separó de la Confederación Argentina debido a los intereses económicos y políticos de la élite porteña, que no quería perder el control de las rentas aduaneras y el puerto.",
+        "Puntaje": 8
+    },
+    {
+        "Pregunta": "Explica las principales razones detrás de la Revolución del 11 de septiembre de 1852 y cómo influyó en la separación entre Buenos Aires y la Confederación Argentina.",
+        "Respuesta Correcta": "La Revolución del 11 de septiembre de 1852 fue un golpe de estado en Buenos Aires, liderado por Bartolomé Mitre y Adolfo Alsina, en rechazo a la política de Justo José de Urquiza tras la caída de Juan Manuel de Rosas. La ciudad se separó de la Confederación Argentina, formada por las provincias restantes. Esta separación, que duró casi diez años, se debió a los intereses económicos y políticos de la élite porteña, que temía perder el control de las rentas aduaneras y el puerto de Buenos Aires.",
+        "Respuesta Alumno": "La Revolución del 11 de septiembre de 1852 fue un golpe de estado en Buenos Aires liderado por Bartolomé Mitre y Adolfo Alsina, en oposición a las políticas de Urquiza después de la caída de Rosas. La élite porteña temía perder el control de las rentas aduaneras y el puerto, fundamentales para su economía. Como resultado, Buenos Aires se separó de la Confederación Argentina, compuesta por las demás provincias. Esta separación duró casi diez años, afectando la unidad y desarrollo político del país.",
+        "Puntaje": 10
+    }
+]
