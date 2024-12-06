@@ -1,10 +1,9 @@
-# inference.py
 import torch
 import torch.nn as nn
 import os
 from transformers import AutoTokenizer, AutoModel
 
-# Mismo tokenizador y modelo base que en Colab
+# Mismo modelo base que el utilizado en Colab
 tokenizer = AutoTokenizer.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")
 
 class BertRegressionModel(nn.Module):
@@ -20,35 +19,29 @@ class BertRegressionModel(nn.Module):
             attention_mask=attention_mask,
             token_type_ids=token_type_ids
         )
+        # outputs.pooler_output es la representación [CLS]
         pooled_output = outputs.pooler_output
         pooled_output = self.dropout(pooled_output)
-        output = self.regressor(pooled_output)
-        return output.squeeze(-1)
+        output = self.regressor(pooled_output)  # [batch_size, 1]
+        return output.squeeze(-1)  # [batch_size]
 
-# Cargar el modelo base igual que en Colab
+# Cargar el modelo base BETO igual que en el Colab
 bert_model = AutoModel.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")
 
+# Instanciar el modelo de regresión
 model = BertRegressionModel(bert_model)
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(current_dir, "bert_regression_model.pt")
 
+# Cargar el state_dict del modelo entrenado
 state_dict = torch.load(model_path, map_location=torch.device("cpu"))
-model.load_state_dict(state_dict)
+model.load_state_dict(state_dict, strict=True)
 model.eval()
 
 def predict_score(question, correct_answer, student_answer):
-    # Tokenizar como en el entrenamiento (usando text y text_pair)
-    # En el entrenamiento se usaba:
-    # inputs = tokenizer(
-    #     text=respuestas_correctas,
-    #     text_pair=respuestas_estudiantes,
-    #     padding='longest',
-    #     truncation=True,
-    #     return_tensors='pt'
-    # )
-    #
-    # Ahora haremos lo mismo para una sola muestra:
+    # Tokenizar usando text y text_pair, exactamente como en el entrenamiento.
+    # No agregar manualmente [CLS] ni [SEP], el tokenizador se encarga.
     inputs = tokenizer(
         text=[correct_answer],
         text_pair=[student_answer],
@@ -58,22 +51,17 @@ def predict_score(question, correct_answer, student_answer):
     )
 
     with torch.no_grad():
-        # El modelo espera input_ids, attention_mask, token_type_ids
         input_ids = inputs["input_ids"]
         attention_mask = inputs["attention_mask"]
         token_type_ids = inputs["token_type_ids"]
 
-        outputs = model(
+        # El modelo produce un valor entre 0 y 1 (normalizado)
+        normalized_score = model(
             input_ids=input_ids,
             attention_mask=attention_mask,
             token_type_ids=token_type_ids
         )
 
-    # 'outputs' es un valor continuo normalizado entre 0 y 1
-    predicted_value = outputs.item()
-    # Desnormalizar multiplicando por 10
-    predicted_score = predicted_value * 10.0
-
-    # Si quieres redondear o asignar a categorías discretas lo haces aquí.
-    # Si no, devuélvelo continuo.
+    # Desnormalizar el puntaje a escala 0-10
+    predicted_score = normalized_score.item() * 10.0
     return predicted_score
