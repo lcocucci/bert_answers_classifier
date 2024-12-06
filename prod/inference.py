@@ -3,8 +3,8 @@ import torch.nn as nn
 import os
 from transformers import AutoTokenizer, AutoModel
 
-# Mismo modelo base que el utilizado en Colab
-tokenizer = AutoTokenizer.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")
+# Usa el mismo modelo base que en el entrenamiento (bert-base-uncased si el checkpoint tiene 30522 tokens)
+tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 
 class BertRegressionModel(nn.Module):
     def __init__(self, bert_model):
@@ -19,29 +19,36 @@ class BertRegressionModel(nn.Module):
             attention_mask=attention_mask,
             token_type_ids=token_type_ids
         )
-        # outputs.pooler_output es la representación [CLS]
         pooled_output = outputs.pooler_output
         pooled_output = self.dropout(pooled_output)
-        output = self.regressor(pooled_output)  # [batch_size, 1]
-        return output.squeeze(-1)  # [batch_size]
+        return self.regressor(pooled_output).squeeze(-1)
 
-# Cargar el modelo base BETO igual que en el Colab
-bert_model = AutoModel.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")
-
-# Instanciar el modelo de regresión
+# Carga el modelo base idéntico al usado en entrenamiento
+bert_model = AutoModel.from_pretrained("bert-base-uncased")
 model = BertRegressionModel(bert_model)
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(current_dir, "bert_regression_model.pt")
 
-# Cargar el state_dict del modelo entrenado
+# Carga el state dict original
 state_dict = torch.load(model_path, map_location=torch.device("cpu"))
-model.load_state_dict(state_dict, strict=True)
+
+# Renombrar claves classifier.* a regressor.*
+new_state_dict = {}
+for k, v in state_dict.items():
+    if k.startswith("classifier."):
+        # Remplaza 'classifier' por 'regressor'
+        new_key = k.replace("classifier", "regressor")
+        new_state_dict[new_key] = v
+    else:
+        # Otras claves se mantienen igual
+        new_state_dict[k] = v
+
+# Carga el nuevo state dict en el modelo
+model.load_state_dict(new_state_dict, strict=True)
 model.eval()
 
 def predict_score(question, correct_answer, student_answer):
-    # Tokenizar usando text y text_pair, exactamente como en el entrenamiento.
-    # No agregar manualmente [CLS] ni [SEP], el tokenizador se encarga.
     inputs = tokenizer(
         text=[correct_answer],
         text_pair=[student_answer],
@@ -55,13 +62,13 @@ def predict_score(question, correct_answer, student_answer):
         attention_mask = inputs["attention_mask"]
         token_type_ids = inputs["token_type_ids"]
 
-        # El modelo produce un valor entre 0 y 1 (normalizado)
+        # El modelo produce un valor entre 0 y 1 si así fue entrenado
         normalized_score = model(
             input_ids=input_ids,
             attention_mask=attention_mask,
             token_type_ids=token_type_ids
         )
 
-    # Desnormalizar el puntaje a escala 0-10
+    # Desnormaliza si fue entrenado así (0-1 a 0-10):
     predicted_score = normalized_score.item() * 10.0
     return predicted_score
