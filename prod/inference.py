@@ -2,22 +2,25 @@ import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 import os
 
-# Cargar el tokenizer
+# Inicializar el tokenizer
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
-# Crear el modelo para regresión con num_labels=1
-model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=1)
+# Crear el modelo con las mismas características que en el entrenamiento (num_labels=6)
+model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=6)
 
-# Cargar el state_dict del modelo entrenado
+# Cargar los pesos entrenados locales
 current_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(current_dir, "bert_regression_model.pt")
+model_path = os.path.join(current_dir, "bert_regression_model.pt")  # Ajusta el nombre si es necesario
 
 state_dict = torch.load(model_path, map_location=torch.device("cpu"))
 model.load_state_dict(state_dict, strict=True)
 model.eval()
 
+# Mapa de clases a puntajes
+score_map = {0: 0, 1: 2, 2: 4, 3: 6, 4: 8, 5: 10}
+
 def predict_score(question, correct_answer, student_answer):
-    # Tokenizar las entradas
+    # Tokenizar
     input_text = f"[CLS] {question} [SEP] {correct_answer} [SEP] {student_answer} [SEP]"
     encodings = tokenizer(
         input_text,
@@ -34,27 +37,7 @@ def predict_score(question, correct_answer, student_answer):
             attention_mask=encodings["attention_mask"]
         )
 
-    # `outputs.logits` ahora es un tensor [1,1] con un valor continuo (regresión)
-    predicted_value = outputs.logits.item()
-
-    # Si quieres devolver directamente el valor continuo:
-    return predicted_value
-
-    # Opcional: Si necesitas discretizar el valor continuo a un conjunto de puntajes
-    # predefinidos (ej. 0,2,4,6,8,10), puedes definir una función:
-    #
-    # def continuous_to_discrete(value):
-    #     if value < 1:
-    #         return 0
-    #     elif value < 3:
-    #         return 2
-    #     elif value < 5:
-    #         return 4
-    #     elif value < 7:
-    #         return 6
-    #     elif value < 9:
-    #         return 8
-    #     else:
-    #         return 10
-    #
-    # return continuous_to_discrete(predicted_value)
+    # Tomar la clase con mayor logit
+    predicted_class = torch.argmax(outputs.logits, dim=1).item()
+    predicted_score = score_map[predicted_class]
+    return predicted_score
