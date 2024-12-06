@@ -9,7 +9,7 @@ model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_l
 
 # Cargamos pesos entrenados locales
 current_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(current_dir, "modelo_corrector.pth")
+model_path = os.path.join(current_dir, "bert_regression_model.pt")
 model.load_state_dict(torch.load(model_path, map_location=torch.device("cpu")))
 model.eval()
 
