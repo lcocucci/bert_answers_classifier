@@ -11,6 +11,6 @@ student_answer = st.text_area("Respuesta del Estudiante", "")
 if st.button("Evaluar Respuesta"):
     if question and correct_answer and student_answer:
         score = predict_score(question, correct_answer, student_answer)
-        st.write(f"**Puntaje asignado:** {score}")
+        st.write(f"**Puntaje asignado (valor continuo):** {score:.2f}")
     else:
         st.warning("Por favor, complete todos los campos antes de evaluar.")

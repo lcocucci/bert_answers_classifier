@@ -1,43 +1,79 @@
+# inference.py
 import torch
-from transformers import BertTokenizer, BertForSequenceClassification
+import torch.nn as nn
 import os
+from transformers import AutoTokenizer, AutoModel
 
-# Inicializar el tokenizer
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+# Mismo tokenizador y modelo base que en Colab
+tokenizer = AutoTokenizer.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")
 
-# Crear el modelo con las mismas características que en el entrenamiento (num_labels=6)
-model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=6)
+class BertRegressionModel(nn.Module):
+    def __init__(self, bert_model):
+        super(BertRegressionModel, self).__init__()
+        self.bert = bert_model
+        self.dropout = nn.Dropout(p=0.3)
+        self.regressor = nn.Linear(self.bert.config.hidden_size, 1)
 
-# Cargar los pesos entrenados locales
+    def forward(self, input_ids, attention_mask, token_type_ids):
+        outputs = self.bert(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids
+        )
+        pooled_output = outputs.pooler_output
+        pooled_output = self.dropout(pooled_output)
+        output = self.regressor(pooled_output)
+        return output.squeeze(-1)
+
+# Cargar el modelo base igual que en Colab
+bert_model = AutoModel.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")
+
+model = BertRegressionModel(bert_model)
+
 current_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(current_dir, "bert_regression_model.pt")  # Ajusta el nombre si es necesario
+model_path = os.path.join(current_dir, "bert_regression_model.pt")
 
 state_dict = torch.load(model_path, map_location=torch.device("cpu"))
-model.load_state_dict(state_dict, strict=True)
+model.load_state_dict(state_dict)
 model.eval()
 
-# Mapa de clases a puntajes
-score_map = {0: 0, 1: 2, 2: 4, 3: 6, 4: 8, 5: 10}
-
 def predict_score(question, correct_answer, student_answer):
-    # Tokenizar
-    input_text = f"[CLS] {question} [SEP] {correct_answer} [SEP] {student_answer} [SEP]"
-    encodings = tokenizer(
-        input_text,
-        padding="max_length",
+    # Tokenizar como en el entrenamiento (usando text y text_pair)
+    # En el entrenamiento se usaba:
+    # inputs = tokenizer(
+    #     text=respuestas_correctas,
+    #     text_pair=respuestas_estudiantes,
+    #     padding='longest',
+    #     truncation=True,
+    #     return_tensors='pt'
+    # )
+    #
+    # Ahora haremos lo mismo para una sola muestra:
+    inputs = tokenizer(
+        text=[correct_answer],
+        text_pair=[student_answer],
+        padding='longest',
         truncation=True,
-        max_length=128,
-        return_tensors="pt"
+        return_tensors='pt'
     )
 
-    # Inferencia sin gradientes
     with torch.no_grad():
+        # El modelo espera input_ids, attention_mask, token_type_ids
+        input_ids = inputs["input_ids"]
+        attention_mask = inputs["attention_mask"]
+        token_type_ids = inputs["token_type_ids"]
+
         outputs = model(
-            input_ids=encodings["input_ids"],
-            attention_mask=encodings["attention_mask"]
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids
         )
 
-    # Tomar la clase con mayor logit
-    predicted_class = torch.argmax(outputs.logits, dim=1).item()
-    predicted_score = score_map[predicted_class]
+    # 'outputs' es un valor continuo normalizado entre 0 y 1
+    predicted_value = outputs.item()
+    # Desnormalizar multiplicando por 10
+    predicted_score = predicted_value * 10.0
+
+    # Si quieres redondear o asignar a categorías discretas lo haces aquí.
+    # Si no, devuélvelo continuo.
     return predicted_score
